@@ -14,6 +14,13 @@
 
 @implementation GTNavigationController
 
+#pragma mark- 生命周期
+- (void)dealloc
+{
+    GTLOG(@"控制器销毁%@",[self class]);
+    [super dealloc];
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

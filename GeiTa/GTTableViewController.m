@@ -14,6 +14,13 @@
 
 @implementation GTTableViewController
 
+#pragma mark- 生命周期
+- (void)dealloc
+{
+    GTLOG(@"控制器销毁%@",[self class]);
+    [super dealloc];
+}
+
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];

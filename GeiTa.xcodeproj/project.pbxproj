@@ -281,6 +281,7 @@
 		180DEC85185EEC05007185F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				180DEDC9185EF72C007185F6 /* libsqlite3.dylib */,
 				189EBF59185F0898006EECAC /* Security.framework */,
 				189EBF57185F0876006EECAC /* ImageIO.framework */,
 				189EBF4B185F085E006EECAC /* Accelerate.framework */,
@@ -289,7 +290,6 @@
 				189EBF4E185F085E006EECAC /* MapKit.framework */,
 				189EBF4F185F085E006EECAC /* QuartzCore.framework */,
 				189EBF50185F085E006EECAC /* SystemConfiguration.framework */,
-				180DEDC9185EF72C007185F6 /* libsqlite3.dylib */,
 				180DEC86185EEC05007185F6 /* UIKit.framework */,
 				180DEC88185EEC05007185F6 /* Foundation.framework */,
 				180DEC8A185EEC05007185F6 /* CoreGraphics.framework */,
@@ -923,7 +923,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GeiTa/GeiTa-Prefix.pch";
 				INFOPLIST_FILE = "GeiTa/GeiTa-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Apple/GITHUB/GeiTa/GeiTa/UMAnalytics,
@@ -939,7 +939,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GeiTa/GeiTa-Prefix.pch";
 				INFOPLIST_FILE = "GeiTa/GeiTa-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Apple/GITHUB/GeiTa/GeiTa/UMAnalytics,
