@@ -1,0 +1,82 @@
+//
+// Prefix header for all source files of the 'GeiTa' target in the 'GeiTa' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+
+    #import "GTEnum.h"
+    #import "GTFont.h"
+    #import "GTColor.h"
+    #import "GTShare.h"
+    #import "GTError.h"
+    #import "GTStatus.h"
+
+    #import "Reachability.h"
+    #import "GTUser.h"
+    #import "GTVersion.h"
+
+    #import "GTTools.h"
+    #import "GTSave.h"
+    #import "GTDataCache.h"
+    #import "GTAlert.h"
+
+    #import "NSObject+Extension.h"
+    #import "UIImage+Extension.h"
+    #import "UIView+Extension.h"
+    #import "NSString+Extension.h"
+    #import "NSData+Extension.h"
+    #import "NSDate+Extension.h"
+
+    #import "GTMessageCenter.h"
+#endif
+
+
+//李翔宇设置
+#define GTNULL                      @""
+#define GTPlaceholderImage          [UIImage imageNamed:@""]
+#define GTiOSVersion                [UIDevice currentDevice].systemVersion
+#define GTiOS6                      ([GTiOSVersion floatValue]>=6.0)
+#define GTiOS7                      ([GTiOSVersion floatValue]>=7.0)
+#define GTWelcome                   @"Welcome"
+
+
+#pragma mark- 拉手电影票全局方法
+//用于释放一些全局的，非属性的变量
+#define GTRELEASE(o)               if(o!=nil){[o release];o=nil;}
+//此方法可以用于检测部分错误,需要将函数作为参数传进来
+#define GTTRYCATCH(o)              @try{o}@catch(NSException *exception){GTLOG(@"NSException:%@", exception);}@finally{}
+
+
+#pragma mark- 屏幕适配相关
+#define HeightOfiPhoneX(y)            ((y)+([UIScreen mainScreen].bounds.size.height==568?88:0))
+
+
+#pragma mark- 调试相关参数
+
+#define GTDEBUG//此行为开关
+#ifdef GTDEBUG
+//调试版常用函数
+//打印函数
+#define GTLOG(INFO,...)             NSLog((@"\n[File:%s]\n[Line:%d]\n[Function:%s]\n" INFO), __FILE__, __LINE__,__PRETTY_FUNCTION__, ##__VA_ARGS__)
+
+//调试版API参数
+#define API_VERSION_HEADER          @""
+
+#else
+//发布版常用函数
+//打印函数
+#define GTLOG(INFO,...)             NSLog((@"\n[File:%s]\n[Line:%d]\n[Function:%s]\n" INFO), __FILE__, __LINE__,__PRETTY_FUNCTION__, ##__VA_ARGS__)
+
+//发布版API参数
+#define API_VERSION_HEADER          @""
+
+#endif
