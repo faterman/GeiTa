@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>E4A98D72-BBEB-4217-B83D-5B140283849F</string>
+	<string>A1CE1B44-4CBC-4326-BC31-2FE596C9A47B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>GeiTa</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C1EED674-8AAA-4C36-9857-505B20060E8F</key>
-		<string>https://github.com/Mr-LiXiangYu/GeiTa.git</string>
+		<key>E86B4A36-C9F5-4976-9F0D-491E423A1250</key>
+		<string>https://github.com/faterman/GeiTa.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>GeiTa.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C1EED674-8AAA-4C36-9857-505B20060E8F</key>
+		<key>E86B4A36-C9F5-4976-9F0D-491E423A1250</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Mr-LiXiangYu/GeiTa.git</string>
+	<string>https://github.com/faterman/GeiTa.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C1EED674-8AAA-4C36-9857-505B20060E8F</string>
+	<string>E86B4A36-C9F5-4976-9F0D-491E423A1250</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C1EED674-8AAA-4C36-9857-505B20060E8F</string>
+			<string>E86B4A36-C9F5-4976-9F0D-491E423A1250</string>
 			<key>IDESourceControlWCCName</key>
 			<string>GeiTa</string>
 		</dict>

@@ -235,6 +235,7 @@
 		18E22B1B185F06CE0055D7E1 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		18E22B1C185F06CE0055D7E1 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		18E22B1D185F06CE0055D7E1 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		2DB7BAD5185FFD420052F466 /* GTConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GTConfig.h; path = GeiTa/GTConfig.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +265,7 @@
 		180DEC7A185EEC05007185F6 = {
 			isa = PBXGroup;
 			children = (
+				2DB7BAD5185FFD420052F466 /* GTConfig.h */,
 				180DEC8C185EEC05007185F6 /* GeiTa */,
 				180DEC85185EEC05007185F6 /* Frameworks */,
 				180DEC84185EEC05007185F6 /* Products */,
@@ -300,13 +302,13 @@
 		180DEC8C185EEC05007185F6 /* GeiTa */ = {
 			isa = PBXGroup;
 			children = (
+				180DEC95185EEC05007185F6 /* GTAppDelegate.h */,
+				180DEC96185EEC05007185F6 /* GTAppDelegate.m */,
 				180DECBC185EEF36007185F6 /* Main */,
 				180DECAA185EEE1F007185F6 /* BasicController */,
 				180DECA9185EEE13007185F6 /* ShareView */,
 				180DECA3185EEC59007185F6 /* Singleton */,
 				180DECA8185EEE05007185F6 /* Model */,
-				180DEC95185EEC05007185F6 /* GTAppDelegate.h */,
-				180DEC96185EEC05007185F6 /* GTAppDelegate.m */,
 				180DECBD185EEF51007185F6 /* Support */,
 				180DEC8D185EEC05007185F6 /* Supporting Files */,
 				180DECD9185EF04B007185F6 /* OtherSupport */,
